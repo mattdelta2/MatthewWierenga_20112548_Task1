@@ -8,8 +8,14 @@ namespace MatthewWierenga_20112548_Task1
 {
     class Enemy
     {
-        Random r = new Random();
 
-       
+         int HP;
+
+         int MaxHP;
+
+         int Damage;
+
+        
+
     }
 }

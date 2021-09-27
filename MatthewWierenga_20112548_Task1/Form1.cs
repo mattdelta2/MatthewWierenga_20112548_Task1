@@ -39,6 +39,9 @@ namespace MatthewWierenga_20112548_Task1
                 Console.WriteLine();
             }
             Console.ReadLine(); ;
+
+
+            
         }
 
         private void lblMap_Click(object sender, EventArgs e)

@@ -16,6 +16,8 @@ namespace MatthewWierenga_20112548_Task1
         public int GoblinDamage;
         public int GoblinHP;
 
+        
+
         public enum Movement
         {
             NoMovement,
