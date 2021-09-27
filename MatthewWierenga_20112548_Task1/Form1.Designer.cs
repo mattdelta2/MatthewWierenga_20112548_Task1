@@ -35,18 +35,20 @@ namespace MatthewWierenga_20112548_Task1
             // lblMap
             // 
             this.lblMap.AutoSize = true;
-            this.lblMap.Location = new System.Drawing.Point(297, 92);
+            this.lblMap.Location = new System.Drawing.Point(265, 61);
             this.lblMap.Name = "lblMap";
-            this.lblMap.Size = new System.Drawing.Size(50, 20);
+            this.lblMap.Size = new System.Drawing.Size(38, 15);
             this.lblMap.TabIndex = 0;
             this.lblMap.Text = "label1";
+            this.lblMap.Click += new System.EventHandler(this.lblMap_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(700, 338);
             this.Controls.Add(this.lblMap);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

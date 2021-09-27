@@ -15,7 +15,35 @@ namespace MatthewWierenga_20112548_Task1
         public Form1()
         {
             InitializeComponent();
+
+            lblMap.Text = ",";
+            string[,] map = new string[10, 10];
+            Random r = new Random();
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    map[i, j] = "x";
+                    lblMap.Text = map[i, j];
+                }
+            }
+
+            for (int i = 0; i < 10; i++)
+            {
+                for (int j = 0; j < 10; j++)
+                {
+                    Console.Write(map[i, j]);
+                    map[i, j] = "x";
+                    lblMap.Text = map[i, j];
+                }
+                Console.WriteLine();
+            }
+            Console.ReadLine(); ;
         }
 
+        private void lblMap_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
