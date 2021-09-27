@@ -8,5 +8,10 @@ namespace MatthewWierenga_20112548_Task1
 {
     class Hero
     {
+
+        int Damage;
+        int HP;
+
+
     }
 }
