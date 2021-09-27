@@ -8,5 +8,7 @@ namespace MatthewWierenga_20112548_Task1
 {
     class MapCreation
     {
+        public string[][] Map;
+        
     }
 }
