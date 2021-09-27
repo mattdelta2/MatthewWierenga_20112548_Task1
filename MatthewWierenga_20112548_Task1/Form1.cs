@@ -16,7 +16,7 @@ namespace MatthewWierenga_20112548_Task1
         {
             InitializeComponent();
 
-            lblMap.Text = ",";
+            
             string[,] map = new string[10, 10];
             Random r = new Random();
             for (int i = 0; i < 10; i++)
@@ -39,9 +39,10 @@ namespace MatthewWierenga_20112548_Task1
                 Console.WriteLine();
             }
             Console.ReadLine(); ;
-
-
             
+            
+
+
         }
 
         private void lblMap_Click(object sender, EventArgs e)
