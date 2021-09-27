@@ -25,5 +25,11 @@ namespace MatthewWierenga_20112548_Task1
             Left,
             }
 
+        public bool isDead;
+
+        public bool CheckRange;
+
     }
+
+
 }
